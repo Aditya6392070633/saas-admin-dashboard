@@ -3,8 +3,15 @@ import { useAuth } from "../context/AuthContext.jsx";
 
 const navItems = [
   { to: "/dashboard", label: "Dashboard", icon: "📊" },
+  { to: "/analytics", label: "Analytics", icon: "📈" },
   { to: "/customers", label: "Customers", icon: "👥" },
+  { to: "/subscriptions", label: "Subscriptions", icon: "🔁" },
+  { to: "/invoices", label: "Invoices", icon: "🧾" },
   { to: "/billing", label: "Billing", icon: "💳" },
+  { to: "/team", label: "Team", icon: "🧑‍🤝‍🧑" },
+  { to: "/reports", label: "Reports", icon: "📁" },
+  { to: "/notifications", label: "Notifications", icon: "🔔" },
+  { to: "/settings", label: "Settings", icon: "⚙️" },
 ];
 
 export default function Sidebar() {
