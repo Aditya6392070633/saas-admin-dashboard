@@ -13,7 +13,7 @@ const userPasswordHash = bcrypt.hashSync("user123", 10);
 
 db.users.push({
   id: uuidv4(),
-  name: "Alex Morgan",
+  name: "Deepak Singh",
   email: "admin@demo.com",
   passwordHash: adminPasswordHash,
   role: "admin",
